@@ -1,0 +1,277 @@
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.links{
+  position: relative;
+    top: 241px;
+}
+.facebook{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  margin: 28px;
+}
+.headingface{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+.App-header{
+  border-bottom: 2px solid white;
+  display: contents;
+}
+.face-main{
+  height: 50px;
+    border: 1px solid;
+    width: 137px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background: #0054ff;
+    border-radius: 5px;
+}
+.face-main:hover{
+  font-size: large;
+  cursor: pointer;
+}
+.head{
+  position: relative;
+  top: 14px;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  color: aliceblue;
+}
+.icon svg{
+  height: 17px;
+  width: 25px;
+  background-color: aliceblue;
+}
+.icon svg:hover{
+  cursor: pointer;
+}
+.py-3{
+ display: flex;
+ justify-content: center;
+ color: aliceblue;
+}
+.com-heading{
+  border-bottom: 2px solid white;
+    padding: 6px 0px 9px 6px;
+    color: aliceblue;
+}
+.py-5{
+  display: flex;
+    justify-content: center;
+    top: 225px;
+    position: relative;
+}
+.py-5 button{
+  height: 39px;
+  width: 140px;
+  background: center;
+  color: aliceblue;
+  font-size: x-large;
+  border-radius: 52px;
+  border: 2px solid;
+}
+.py-5 button:hover{
+  cursor: pointer;
+  font-size: xx-large;
+  /* height: 45px;
+  transition: 0.1s; */
+}
+.add-com{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 160px;
+}
+.add-com h3{
+  border-bottom: 2px solid aliceblue;
+  position: absolute;
+  color: aliceblue;
+}
+.ant-modal-content{
+  position: relative;
+  top: 172px;
+}
+#main-detail{
+  display: flex;
+    justify-content: center;
+    position: relative;
+    top: 265px;
+}
+.row-2 {
+  border: 2px solid aliceblue;
+padding: 19px;}
+#com-name{
+  color: aliceblue;
+    font-size: x-large;
+    font-family: emoji;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+}
+#update{
+  padding: 6px;
+    margin-right: 5px;
+    font-family: unset;
+    background: #4ac37d;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+#update:hover{
+  background: #26972b;
+  cursor: pointer;
+}
+#delete{
+  padding: 6px;
+    margin-right: 5px;
+    font-family: unset;
+    background: #f44336;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+#delete:hover{
+  background: #c02e24;
+  cursor: pointer;
+}
+#disable{
+  padding: 6px;
+    font-family: unset;
+    background: #ffc107;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+#disable:hover{
+  background: #dac029;
+  cursor: pointer;
+}
+.token p{
+  font-size: larger;
+  color: aliceblue;
+  margin-right: 38px;
+}
+.token span{font-size: larger;
+  color: aliceblue;
+}
+.time span{
+  font-size: larger;
+  color: aliceblue;
+  margin-right: 38px;
+}
+.time p{
+  font-size: larger;
+  color: aliceblue;
+}
+.sold span{
+  font-size: larger;
+  color: aliceblue;
+  margin-right: 38px;
+}
+.sold p{
+  font-size: larger;
+  color: aliceblue;
+}
+.ser-1{
+  font-size: larger;
+  color: aliceblue;
+  margin-right: 38px;
+}
+.mx-3{
+  font-size: larger;
+  color: aliceblue;
+}
+#done{
+  float: right;
+    background: #3f51b5a6;
+    border: none;
+    height: 30px;
+    width: 69px;
+    color: aliceblue;
+    font-family: unset;
+    border-radius: 5px;
+}
+#done:hover{
+  background: #232f86a6;
+  cursor: pointer;
+}
+#token-num{
+  color: aliceblue;
+  margin: 10px;
+}
+#mygroup{
+  border: 2px solid aliceblue;
+    margin-top: 10px;
+    padding: 14px;
+    
+}
+
+.my3{
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+ .col{
+  font-size: large;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+.detail{
+  font-size: large;
+  color: aliceblue;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+.open{
+  color: aliceblue;
+  font-size: larger;
+  margin-right: 27px;
+}
+.close{
+  color: aliceblue;
+  font-size: larger;
+}
+.sell{
+  color: aliceblue;
+  font-size: larger;
+  margin-right: 27px;
+}
+.buy{
+  color: aliceblue;
+  font-size: larger;
+  margin-left: 74px;
+}
+ .my-token{
+  position: absolute;
+    color: aliceblue;
+    font-size: larger;
+    padding: 10px;
+    border: 2px solid aliceblue;
+} 
+ #buy-btn{
+  float: right;
+    margin-top: 10px;
+    color: aliceblue;
+    background: #409f49;
+    border: none;
+    border-radius: 5px;
+    width: 84px;
+    height: 27px;
+    font-size: initial;
+    font-family: unset;
+} 
+ #buy-btn:hover{
+  cursor: pointer;
+  background: #34843b;
+} 

@@ -1,0 +1,50 @@
+body{
+    background: rgb(33 136 243);;
+}
+form{
+    display: flex;
+    float: right;
+}
+form button{
+    position: relative;
+    top: 35px;
+    width: 95px;
+    height: 31px;
+    border-radius: 14px;
+    background: #c14e2f;
+    color: white;
+    border-color: antiquewhite;
+    margin-right: 14px;
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 318px;
+}
+.main{
+    border-bottom: 2px solid white;
+    
+}
+.btns button{
+    height: 31px;
+    margin-right: 16px;
+    border-radius: 15px;
+    color: white;
+    background: rgb(33, 98, 243);
+    border: 1px;
+    width: 150px;
+    
+}
+.btns button:hover{
+    cursor: pointer;
+    color: rgb(33, 98, 243);
+    background: white;
+    font-size: large;
+}
